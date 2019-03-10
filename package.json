@@ -1,0 +1,40 @@
+{
+  "name": "@kjots/create-typescript-package",
+  "version": "0.0.0",
+  "description": "Create TypeScript Package",
+  "main": "dist/index",
+  "bin": {
+    "create-typescript-package": "bin/app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "prepare": "npm-run-all clean build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kjots@github.com/kjots/create-typescript-package.git"
+  },
+  "keywords": [
+    "create",
+    "typescript",
+    "package"
+  ],
+  "author": "Karl Juri Ots <kjots@kjots.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kjots/create-typescript-package/issues"
+  },
+  "homepage": "https://github.com/kjots/create-typescript-package#readme",
+  "engines": {
+    "node": ">=10.15.3",
+    "npm": ">=6.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.30",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^2.6.3",
+    "tslint": "^5.13.1",
+    "typescript": "^3.3.3333"
+  }
+}

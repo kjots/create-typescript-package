@@ -1,0 +1,11 @@
+/.idea/
+
+/node_modules/
+/.npmignore
+/npm-debug.log
+
+/tmp/
+/.editorconfig
+/.nvmrc
+/tsconfig.json
+/tslint.json

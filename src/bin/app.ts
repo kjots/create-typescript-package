@@ -1,0 +1,3 @@
+import createTypescriptPackage from '..';
+
+createTypescriptPackage();
