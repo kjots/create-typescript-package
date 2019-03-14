@@ -4,6 +4,10 @@
 /.npmignore
 /npm-debug.log
 
+/dist/**/*.spec.d.ts
+/dist/**/*.spec.js
+/dist/**/*.spec.js.map
+/src/**/*.spec.ts
 /tmp/
 /types/
 /.editorconfig
