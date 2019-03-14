@@ -5,6 +5,7 @@
 /npm-debug.log
 
 /tmp/
+/types/
 /.editorconfig
 /.nvmrc
 /tsconfig.json
