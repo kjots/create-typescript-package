@@ -42,8 +42,8 @@
     "typescript": "^3.3.3333"
   },
   "dependencies": {
-    "@kjots/observable-stream": "^0.0.2",
-    "@kjots/stream-observable": "^0.0.1",
+    "@kjots/observable-stream": "^0.0.3",
+    "@kjots/stream-observable": "^0.0.2",
     "decompress": "^4.2.0",
     "handlebars": "^4.1.0",
     "lodash": "^4.17.11",
