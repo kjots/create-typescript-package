@@ -9,7 +9,7 @@ import { filter, map, mergeAll, tap } from 'rxjs/operators';
 
 import File = require('vinyl');
 
-import { writeFiles } from './utils/files';
+import { dest } from '@kjots/vinyl-fs-observable';
 
 export interface Opts {
   output: string;
@@ -38,13 +38,11 @@ export default function createTypescriptPackage(opts: Opts) {
   const nameCamelCase = camelCase(name);
   const keywords = opts.keywords.map((keyword, i) => ({ keyword, first: i === 0, last: i === opts.keywords.length - 1 }));
 
-  const templateFiles$ =
-    readTemplateFiles()
-      .pipe(
-        applyTemplate({ name, nameCamelCase, description, keywords })
-      );
-
-  writeFiles(templateFiles$, opts.output);
+  readTemplateFiles()
+    .pipe(
+      applyTemplate({ name, nameCamelCase, description, keywords }),
+      dest(opts.output)
+    );
 }
 
 function readTemplateFiles(): Observable<File> {
