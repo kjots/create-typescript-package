@@ -10,7 +10,9 @@
   "scripts": {
     "build": "tsc",
     "clean": "rimraf dist",
-    "prepare": "npm-run-all clean build"
+    "prepare": "npm-run-all clean build",
+    "test": "npm-run-all test:lint",
+    "test:lint": "tslint --project ."
   },
   "repository": {
     "type": "git",
