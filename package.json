@@ -46,7 +46,7 @@
     "typescript": "^3.4.1"
   },
   "dependencies": {
-    "@kjots/vinyl-fs-observable": "0.0.1",
+    "@kjots/vinyl-fs-observable": "0.0.2",
     "decompress": "^4.2.0",
     "handlebars": "^4.1.1",
     "lodash": "^4.17.11",
