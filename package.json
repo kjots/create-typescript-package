@@ -39,16 +39,16 @@
     "@types/lodash": "^4.14.123",
     "@types/node": "^10.14.4",
     "@types/vinyl-fs": "^2.4.11",
-    "@types/yargs": "^12.0.11",
+    "@types/yargs": "^13.0.0",
     "npm-run-all": "^4.1.5",
     "rimraf": "^2.6.3",
-    "tslint": "^5.15.0",
-    "typescript": "^3.4.1"
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.4"
   },
   "dependencies": {
     "@kjots/vinyl-fs-observable": "0.0.3",
     "decompress": "^4.2.0",
-    "handlebars": "^4.1.1",
+    "handlebars": "^4.1.2",
     "lodash": "^4.17.11",
     "rxjs": "^6.4.0",
     "yargs": "^13.2.2"
