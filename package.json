@@ -36,21 +36,21 @@
   "devDependencies": {
     "@kjots/tslint-rules": "^1.1.0",
     "@types/decompress": "^4.2.3",
-    "@types/lodash": "^4.14.138",
-    "@types/node": "^10.14.17",
+    "@types/lodash": "^4.14.139",
+    "@types/node": "^10.14.19",
     "@types/vinyl-fs": "^2.4.11",
     "@types/yargs": "^13.0.2",
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.0",
-    "tslint": "^5.19.0",
-    "typescript": "^3.6.2"
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
   },
   "dependencies": {
-    "@kjots/vinyl-fs-observable": "0.0.8",
+    "@kjots/vinyl-fs-observable": "0.0.9",
     "decompress": "^4.2.0",
-    "handlebars": "^4.1.2",
+    "handlebars": "^4.3.1",
     "lodash": "^4.17.15",
-    "rxjs": "^6.5.2",
+    "rxjs": "^6.5.3",
     "yargs": "^14.0.0"
   }
 }
