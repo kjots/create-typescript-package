@@ -34,23 +34,23 @@
     "npm": ">=6.11.3"
   },
   "devDependencies": {
-    "@kjots/tslint-rules": "^1.1.0",
+    "@kjots/tslint-rules": "^1.2.0",
     "@types/decompress": "^4.2.3",
-    "@types/lodash": "^4.14.139",
+    "@types/lodash": "^4.14.144",
     "@types/node": "~12.11.1",
     "@types/vinyl-fs": "^2.4.11",
-    "@types/yargs": "^13.0.2",
+    "@types/yargs": "^13.0.3",
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.0",
     "tslint": "^5.20.0",
-    "typescript": "^3.6.3"
+    "typescript": "^3.6.4"
   },
   "dependencies": {
-    "@kjots/vinyl-fs-observable": "0.0.9",
+    "@kjots/vinyl-fs-observable": "0.0.10",
     "decompress": "^4.2.0",
-    "handlebars": "^4.3.1",
+    "handlebars": "^4.4.3",
     "lodash": "^4.17.15",
     "rxjs": "^6.5.3",
-    "yargs": "^14.0.0"
+    "yargs": "^14.2.0"
   }
 }
