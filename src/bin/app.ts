@@ -1,6 +1,6 @@
 import yargs from 'yargs';
 
-import createTypescriptPackage, { defaults } from '..';
+import { createTypescriptPackage, defaults } from '..';
 
 const argv = yargs
   .usage('Usage: $0 [options]')

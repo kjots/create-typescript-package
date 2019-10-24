@@ -35,7 +35,7 @@ interface TemplateContext {
 
 const templateZip = path.resolve(__dirname, '../lib/typescript-package-template.zip');
 
-export default function createTypescriptPackage(opts: Opts) {
+export function createTypescriptPackage(opts: Opts) {
   const { name, description } = opts;
   const nameCamelCase = camelCase(name);
   const keywords = opts.keywords.map((keyword, i) => ({ keyword, first: i === 0, last: i === opts.keywords.length - 1 }));
