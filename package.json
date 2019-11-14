@@ -34,10 +34,10 @@
     "npm": ">=6.12.0"
   },
   "devDependencies": {
-    "@kjots/tslint-rules": "^1.4.1",
+    "@kjots/tslint-rules": "^1.4.2",
     "@types/decompress": "^4.2.3",
-    "@types/lodash": "^4.14.145",
-    "@types/node": "^12.12.6",
+    "@types/lodash": "^4.14.147",
+    "@types/node": "^12.12.7",
     "@types/vinyl-fs": "^2.4.11",
     "@types/yargs": "^13.0.3",
     "npm-run-all": "^4.1.5",
@@ -46,9 +46,9 @@
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "@kjots/vinyl-fs-observable": "^0.0.15",
+    "@kjots/vinyl-fs-observable": "^0.0.16",
     "decompress": "^4.2.0",
-    "handlebars": "^4.5.1",
+    "handlebars": "^4.5.2",
     "lodash": "^4.17.15",
     "rxjs": "^6.5.3",
     "yargs": "^14.2.0"
